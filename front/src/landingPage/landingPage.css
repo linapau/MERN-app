@@ -63,3 +63,12 @@
         padding-bottom: 40px;
     }
 }
+
+@media only screen and (min-width: 1200px){
+    #hello-text{
+        padding: 0 100px;
+    }
+    .btnStart{
+        padding-bottom: 0 100px;
+    }
+}
