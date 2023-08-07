@@ -6,6 +6,7 @@
 /front/public/logo512.png
 /.pnp
 .pnp.js
+/front-copy
 
 # testing
 /coverage
