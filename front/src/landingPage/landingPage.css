@@ -1,0 +1,65 @@
+.main{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    background-size:cover;
+    background-position: center;
+    background-image: url("../../memo-150388_1280.png");
+    background-repeat:no-repeat;
+    background-size: 90%;
+    transform: translate(0, 10%);
+    opacity: 0.4;
+}
+
+.introDiv{
+    background-color: rgba(235, 239, 241, 0.856);
+    width: 90%;
+    height: 20%;
+    /*transform: translate(0%, -100%);*/
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(234,57,184,.9), 0 0 4px rgba(234,57,184,.4), 0 0 1rem rgba(230, 133, 202, 0.3), 0 0 4rem rgba(234,57,184,.1);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -200%);
+}
+
+#hello-text{
+    text-align: center;
+    color: #ec4dbfd2;
+    font-weight: 400;
+    -webkit-text-stroke: 2px #f353c69d; /* width and color */
+}
+
+.buttonContainer{
+    margin: auto;
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+
+}
+
+.btnStart{
+    margin: 30px 10px 0 10px;
+    text-align: center;
+}
+
+.btn-outline-primary {
+    color: #6f42c1;;
+    border-width: 2px;
+}
+
+/* responsivity */
+@media only screen and (max-width: 768px){
+    #hello-text{
+        font-size: 30px;
+    }
+    .btnStart{
+        width: 90px;
+        height: 40px; 
+        padding-bottom: 40px;
+    }
+}
