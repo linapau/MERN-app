@@ -1,13 +1,13 @@
 .main{
-    min-height: 80vh;
+    min-height: 58vh;
     display: flex;
     align-items: center;
     background-size:cover;
     background-position: center;
     background-image: url("../../memo-150388_1280.png");
     background-repeat:no-repeat;
-    background-size: 90%;
-    transform: translate(0, 10%);
+    background-size: 100%;
+    transform: translate(-3%, 5%);
     opacity: 0.4;
 }
 
@@ -22,7 +22,7 @@
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -200%);
+    transform: translate(-50%, -50%);
 }
 
 #hello-text{

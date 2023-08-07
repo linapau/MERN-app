@@ -22,7 +22,7 @@ const LandingPage = () => {
 }
 
 function usrAction(isSignedUp){
-    if(isSignedUp){
+    if (isSignedUp) {
         console.log("zarejestrowany");
     } else
         console.log("niezarejestrowany");
