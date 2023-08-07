@@ -3,6 +3,7 @@
 # dependencies
 /node_modules/
 /front/node_modules/
+/front/public/logo512.png
 /.pnp
 .pnp.js
 
