@@ -1,0 +1,60 @@
+
+#heading{
+    padding-top: 30px;
+}
+
+#btnCreate{
+    display:block;
+    padding: 10px 30px;
+}
+
+.noteDiv{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.card{
+    display: inline-block;
+    margin: 10px 40px 15px 0;
+    min-width: 300px;
+}
+
+
+/* when screen is smaller than 600px - ex. mobile */
+@media only screen and (max-width: 600px){
+    #heading{
+        /*font-size: 30px;*/
+        justify-content: center;
+        display: flex;
+    }
+       
+    .card{
+        display: flex;
+        margin: 10px;
+        justify-content: center;
+    }
+
+    .noteDiv{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    #btnCreateDiv{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    #btnCreate{
+        padding: 10px 100px;
+    }
+
+}
+

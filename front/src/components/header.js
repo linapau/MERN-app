@@ -5,7 +5,9 @@ const Header = () => {
     return(
     <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
         <div className="container-fluid">
-            <a className="navbar-brand ms-4" href="/">NoteApp</a>
+
+            <a className="navbar-brand ms-4" href='/'>NoteApp</a>
+
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
@@ -19,12 +21,12 @@ const Header = () => {
                 </Nav>
 
                 <ul className="navbar-nav me-4">
+
                     <li className="nav-item">
-                        <a className="nav-link active" href="/">My notes
+                        <a className="nav-link active" href="/notes"> My notes
                             <span className="visually-hidden">(current)</span>
                         </a>
                     </li>
-                    
                 <Nav>
                     <NavDropdown title="Account" id="basic-nav-dropdown">
                         <NavDropdown.Item href="/">My profile</NavDropdown.Item>
