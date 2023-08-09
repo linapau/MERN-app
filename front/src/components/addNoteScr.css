@@ -30,6 +30,10 @@
     align-content: center;
 }
 
+.card.border-primary{
+    border: 0;
+}
+
 .card{
     display: inline-block;
     margin: 10px 40px 15px 0;
