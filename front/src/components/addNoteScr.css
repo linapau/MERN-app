@@ -1,11 +1,25 @@
+/*html{
+    position: relative;
+}*/
 
 #heading{
     padding-top: 30px;
+    color: #f709bc;
+    text-shadow: 0 0 1px rgb(251 50 143 / 60%), 0 0 3px rgb(251 50 125 / 50%), 0 0 0.5rem rgb(153 50 251 / 30%), 0 0 2rem rgb(251 50 221 / 20%);
+
 }
 
 #btnCreate{
     display:block;
     padding: 10px 30px;
+}
+
+#searchBtn{
+    background-color: #f709bc;
+}
+
+#searchBtn:hover{
+    background-color: #dd0b86;
 }
 
 .noteDiv{
@@ -15,10 +29,45 @@
     flex-wrap: wrap;
     align-content: center;
 }
+
 .card{
     display: inline-block;
     margin: 10px 40px 15px 0;
     min-width: 300px;
+}
+
+.noteActBtn{
+    background-color: #8a2be2;
+    margin-right: 15px;
+}
+
+.noteActBtn:hover{
+    background-color: rgb(124, 32, 211);
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: rgb(202, 160, 221);
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed):hover {
+    color: var(--bs-accordion-active-color);
+    background-color: rgb(198, 145, 223);
+    box-shadow: none;
+}
+
+.accordion-button{
+    /*background-color: rgb(198, 145, 223);*/
+    background-color: #301c52;
+}
+
+.accordion-button:hover{
+    background-color: rgb(129, 89, 163);
+}
+
+.accordion-button::after{
+    background-image: none;
 }
 
 
